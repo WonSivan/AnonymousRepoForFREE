@@ -60,10 +60,24 @@ Because Kata Containers depends on virtualization, you will typically need:
 
    <img src=".\screenshots\image-20260130141908356.png" alt="image-20260130141908356" style="zoom: 25%;" />
 
-   
-
    After running the test program：
-   
+
    <img src=".\screenshots\image-20260130142231391.png" alt="image-20260130142231391" style="zoom:25%;" />
 
-**Results**: The container is actually over-consuming the host machine's memory and storage resources, but it hasn't triggered an OOM-kill or pod eviction.
+The container is actually over-consuming the host machine's memory and storage resources, but it hasn't triggered an OOM-kill or pod eviction.
+
+## Screenshots of Communications With Relevant Cloud Security Teams
+
+1. Online meeting with Alibaba security teams Guanxing (The topic name has been translated into English):
+
+   At the meeting, their security engineers **acknowledged the security issues revealed by FREE** and are discussing mitigations for FREE.
+
+   <img src=".\screenshots\image-20260130151957125.png" alt="image-20260130151957125" style="zoom: 80%;" />
+
+2. With AWS Security
+
+   <img src=".\screenshots\image-20260130151217277.png" alt="image-20260130151217277" style="zoom: 50%;" />
+
+3. With Azure Security
+
+   <img src=".\screenshots\image-20260130151528700.png" alt="image-20260130151528700" style="zoom:50%;" />
