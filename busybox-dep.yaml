@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox
+  labels:
+    app: busybox
+spec:
+  runtimeClassName: kata
+  containers:
+  - name: busybox
+    image: <your-images>
+    command:
+    - tail
+    - -f
+    - /dev/null
+    resources:
+      limits:
+        cpu: 1000m
+        memory: 128Mi
+        ephemeral-storage: "1Gi"
+      requests:
+        cpu: 1000m
+        memory: 128Mi
+        ephemeral-storage: "1Gi"
