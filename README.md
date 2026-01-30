@@ -78,4 +78,4 @@ The container is actually over-consuming the host machine's memory and storage r
 
 3. With Azure Security
 
-   ![image-20260130153915839](.\screenshots\image-20260130153915839.png)
+   <img src=".\screenshots\image-20260130153915839.png" alt="image-20260130153915839" style="zoom:80%;" />
