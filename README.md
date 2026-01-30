@@ -11,8 +11,6 @@
   - No weaponized automation against real targets
   - No target lists or “ready-to-deploy” exploit pipelines
 
-If you believe any part of this repository could be abused, please contact us (see **Contact**).
-
 ---
 
 ## What this repo contains
@@ -72,7 +70,7 @@ The container is actually over-consuming the host machine's memory and storage r
 
    At the meeting, their security engineers **acknowledged the security issues revealed by FREE** and are discussing mitigations for FREE.
 
-   <img src=".\screenshots\image-20260130151957125.png" alt="image-20260130151957125" style="zoom: 80%;" />
+   <img src=".\screenshots\image-20260130154255447.png" alt="image-20260130154255447" style="zoom: 67%;" />
 
 2. With AWS Security
 
@@ -80,4 +78,4 @@ The container is actually over-consuming the host machine's memory and storage r
 
 3. With Azure Security
 
-   <img src=".\screenshots\image-20260130151528700.png" alt="image-20260130151528700" style="zoom:50%;" />
+   ![image-20260130153915839](.\screenshots\image-20260130153915839.png)
